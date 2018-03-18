@@ -1,0 +1,389 @@
+/*=================================
+=            Font Face            =
+=================================*/
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/gotham-light-webfont.eot');
+	src: url('../fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gotham-light-webfont.woff') format('woff'),
+		 url('../fonts/gotham-light-webfont.ttf') format('truetype'),
+		 url('../fonts/gotham-light-webfont.svg#GothamLightRegular') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/gotham-book-webfont.eot');
+	src: url('../fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gotham-book-webfont.woff') format('woff'),
+		 url('../fonts/gotham-book-webfont.ttf') format('truetype'),
+		 url('../fonts/gotham-book-webfont.svg#GothamBookRegular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/gotham-medium-webfont.eot');
+	src: url('../fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gotham-medium-webfont.woff') format('woff'),
+		 url('../fonts/gotham-medium-webfont.ttf') format('truetype'),
+		 url('../fonts/gotham-medium-webfont.svg#GothamMediumRegular') format('svg');
+	font-weight: 500;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/gotham-bold-webfont.eot');
+	src: url('../fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gotham-bold-webfont.woff') format('woff'),
+		 url('../fonts/gotham-bold-webfont.ttf') format('truetype'),
+		 url('../fonts/gotham-bold-webfont.svg#GothamBoldRegular') format('svg');
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/gotham-black-webfont.eot');
+	src: url('../fonts/gotham-black-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gotham-black-webfont.woff') format('woff'),
+		 url('../fonts/gotham-black-webfont.ttf') format('truetype'),
+		 url('../fonts/gotham-black-webfont.svg#GothamBlackRegular') format('svg');
+	font-weight: 800;
+	font-style: normal;
+
+}
+
+/*=====  End of Font Face  ======*/
+
+
+/*===============================
+=            Typography            =
+===============================*/
+body { font: 400 normal 14px/23px 'Gotham', sans-serif; color: #211F20; }
+
+h1,
+.uk-h1 { font: 700 normal 42px/46px 'Gotham', sans-serif; color:#D4DADD; }
+
+h1 span { font-weight: 300; color: #fff; }
+
+h2,
+.uk-h2 { font: 700 normal 45px/55px 'Gotham', sans-serif; color: #211F20; }
+
+h3,
+.uk-h3 { font: 500 normal 27px/35px 'Gotham', sans-serif; color: #DC3631; }
+
+h4,
+.uk-h4 { font: 700 normal 20px/25px 'Gotham', sans-serif; color: #211F20; }
+
+h5,
+.uk-h5 { font: 700 normal 13px/22px 'Gotham', sans-serif; color: #211F20; }
+
+a,
+a:hover { text-decoration: none !important; }
+
+.uk-text-large { font-size: 20px; line-height: 32px; }
+
+@media (max-width: 767px) {
+	h1, .uk-h1 { font-size: 28px; line-height: 34px; }
+}
+
+@media (max-width: 467px) {
+	h1, .uk-h1 { font-size: 18px; line-height: 24px; }
+
+}
+
+/*=====  End of Typography  ======*/
+
+/*==============================
+=            Layout            =
+==============================*/
+.uk-container { max-width: 1170px; }
+
+
+/*=====  End of Layout  ======*/
+
+/*==============================
+=            Button            =
+==============================*/
+.uk-button { font-size: 12px; font-weight: 500; border-radius: 5px; padding: 3px 25px; }
+.uk-button-danger { background-color: #dc3630; }
+
+.uk-button-large { line-height: 31px; margin-right: 25px; min-height: auto; padding: 10px 45px 10px 15px; }
+.uk-button-large i { background: #fff; font-size: 14px; border-radius: 50%; color: #dc3630; float: left; font-size: 20px; line-height: 31px; margin-right: 30px; width: 31px; }
+
+/*=====  End of Button  ======*/
+
+/*=================================
+=            Accordion            =
+=================================*/
+.uk-accordion-title { background: #222 url(../images/icon-2.png) no-repeat right center; color: #fff; text-transform: uppercase; padding-top: 10px; padding-bottom: 10px; margin-bottom: 0; margin-top:4px; font-size:16px;}
+.uk-accordion-title.uk-active { background:#222 url(../images/icon-4.png) no-repeat right center; }
+
+.uk-accordion-title em { color:#666; font-weight:400; font-size:14px; text-transform:none; margin-left:10px;}
+
+.uk-accordion-content { background: #eee; padding: 15px; }
+
+.uk-accordion-content h5 { font-size:16px; font-weight:600; padding:10px 0; border-bottom:1px solid #d1d2d4; margin:0; }
+
+.uk-accordion-content .data-title { position:relative; padding-bottom:25px;}
+
+.uk-accordion-content .arrow-drop  { background: rgba(0, 0, 0, 0)  url(../images/drop-arrow.png) no-repeat scroll center center / 22px 11px; width:29px; height:15px; position:absolute; top:40px; left:14px; }
+.uk-accordion-content h4.uk-comment-title { font-size:13px; font-weight:400; line-height:normal; }
+
+/*=====  End of Accordion  ======*/
+
+
+/*==============================
+=            Blocks            =
+==============================*/
+.uk-block-muted { background: url(../images/block-muted-bg.jpg) center center no-repeat; background-size: cover; }
+.uk-block-primary { background: url(../images/block-primary-bg.jpg) center center no-repeat; background-size: cover; }
+.uk-block-secondary { background: #211f20 url(../images/block-secondary-bg.png) top left repeat-x; }
+
+.uk-panel-box { background-color: #8e9295; }
+
+/*=====  End of Blocks  ======*/
+
+
+/*==============================
+=            Header            =
+==============================*/
+
+/* Utility Bar */
+.utility-bar { background: url(../images/utility-bar-bg.png) 0 0 repeat-x ; padding: 11px 0; font-size: 13px; }
+.utility-bar .uk-subnav > * { padding-left: 28px; }
+.utility-bar .uk-subnav > li:first-child { padding-left: 0px; } 
+
+.utility-bar .uk-subnav > li > a { font-family: Gotham, sans-serif; }
+.utility-bar .uk-subnav > li > a img { margin-right: 5px; max-width: 20px; }
+.utility-bar .uk-subnav > li > a span { white-space: nowrap; padding-left: 20px; }
+
+/* Navbar */
+.uk-navbar { background: url(../images/navbar-bg.png) 0 0 repeat-x ; padding: 36px 0; margin-bottom:-1px; }
+.uk-navbar .uk-navbar-brand { padding-left: 0px;width: 315px; }
+
+.site-header .uk-navbar-nav > li > a { position: relative; font-family: Gotham, sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; padding: 0 5px; }
+.site-header .uk-navbar-nav > li:last-child > a { padding-right: 0; }
+
+.uk-navbar-nav > li:hover > a, 
+.uk-navbar-nav > li > a:focus,
+.uk-navbar-nav > li.current-menu-item > a:focus { background-color: transparent; text-decoration: none !important; }
+
+.uk-navbar-nav > li:hover > a:after,
+.uk-navbar-nav > li.current-menu-item > a:after { display: block; content: ''; bottom: 8px; left: 5px; right: 5px; border-top: 3px solid #fff; position: absolute; }
+
+/* Off Canvas */
+.uk-navbar-toggle { color: #fff; font-size: 24px; }
+.uk-navbar-toggle:hover { color: #fff; opacity: 0.8; }
+
+.uk-nav-offcanvas > li > a { border-bottom: 1px solid rgba(0, 0, 0, 0.14); border-top: 1px solid rgba(255, 255, 255, 0.06); font-size: 13px; font-weight: 500; text-transform: uppercase; }
+
+@media (max-width: 467px) {
+	.uk-navbar-brand { max-width: 220px; }
+}
+
+/*=====  End of Header  ======*/
+
+/*==============================
+=            Banner            =
+==============================*/
+.site-banner p { font-size: 15px; line-height: 28px; font-weight: 500; }
+
+.site-banner .uk-overlay-panel {padding-top:30px; padding-bottom: 30px; }
+
+
+/*.uk-slideshow.site-banner li{max-height:330px;} */
+@media (max-width: 767px) {
+	.site-banner h1.uk-margin-large-bottom { margin-bottom: 10px !important; }
+}
+
+@media (max-width: 959px) {
+.site-banner .uk-overlay-panel .uk-grid > div , .uk-slideshow .uk-overlay-panel .uk-grid > div{ text-align: center; }
+}
+/*=====  End of Banner  ======*/
+
+
+/*=====================================
+=            Home Features            =
+=====================================*/
+.site-features .uk-panel-header .uk-panel-title { margin: 25px 0 0; border-bottom-width: 3px; border-bottom-color: #dc3630; color: #211F20; }
+
+/*=====  End of Home Features  ======*/
+
+/*=====================================
+=            Home: Welcome            =
+=====================================*/
+.site-welcome p > a { font-weight: 500; font-size: 15px; color: #fff; }
+
+/*=====  End of Home: Welcome  ======*/
+
+/*=========================================
+=            Home: Testimonial            =
+=========================================*/
+.site-testimonial { padding-top: 40px; padding-bottom: 40px; }
+.site-testimonial + .arrow { display: block; content: ''; width: 0; height: 0; border-style: solid; border-width: 0 50px 50px 0; border-color: transparent #8e9295 transparent transparent; float: right; transform: translateX(-40px); }
+
+.site-testimonial p { line-height: 42px; }
+.site-testimonial p big { font-size: 30px; }
+.site-testimonial p span { display: block; font-weight: 500; }
+
+/*=====  End of Home: Testimonial  ======*/
+
+/*==================================
+=            Home: News            =
+==================================*/
+.site-news .uk-article { margin-top: 25px; }
+
+
+/*=====  End of Home: News  ======*/
+
+/*==============================
+=            Footer            =
+==============================*/
+.site-footer { font-size: 13px; }
+.site-footer a { color: #fff !important; }
+.site-footer .widget_nav_menu ul { margin: 0px; padding: 0px; }
+.site-footer .widget_nav_menu ul > li { margin-top: 7px; list-style: none; }
+
+
+.copyright-text { margin-top: 28px; }
+
+.footer-social > a { margin-right: 5px; }
+
+.site-socket .uk-subnav > li { padding-left: 5px; }
+.site-socket .uk-subnav > li > a { font-size: 12px; }
+.uk-subnav-line > *:nth-child(n+2)::before { margin-right: 5px; }
+
+/*=====  End of Footer  ======*/
+
+/*==================================
+=            Login Form            =
+==================================*/
+.lwa-divs-only { background: #eee; padding: 15px; }
+.widget_loginwithajaxwidget h5 { background: #222; margin: 0; padding: 15px; color: #fff; text-transform: uppercase; font-size: 16px; }
+
+/*=====  End of Login Form  ======*/
+
+
+
+/*Info Link Start*/
+
+.before_footer_images .uk-subnav.uk-subnav-line li{
+	background: rgba(196, 201, 205, 1) none repeat scroll 0 0;
+    box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.75);
+    display: inline-block;
+    margin: 0 7px;
+    padding: 11px 15px 7px;
+}
+.before_footer_images .uk-subnav.uk-subnav-line {
+    margin-top: 23px;
+}
+
+.before_footer_images .uk-subnav-line > *:nth-child(n+2)::before {
+    border-left: medium none;
+}
+
+.before_footer_images .uk-subnav.uk-subnav-line li:hover{
+	background: #ef3e36 none repeat scroll 0 0;
+	}
+/*Info link End*/
+
+
+/*---------------------dropdown----------------------*/
+.uk-navbar-nav > li:hover > a{
+	color:#fff;	
+}
+.uk-navbar-nav ul{
+width:150px;
+position:absolute;
+top:32px;
+left:0px;
+margin:0px;
+text-align:center;
+list-style:none;
+background:#eb413b;
+display:none;
+z-index:999;
+padding:0;
+}
+.uk-navbar-nav ul li
+{
+display:block;
+color:#c6e2fc;
+border-left:none;
+float:none;
+padding:0px;
+position:relative;
+}
+
+.uk-navbar-nav ul li a
+{
+color:#FFFFFF;
+float:none;
+display:block;
+text-decoration:none; 
+text-transform:none;
+padding:5px 10px;
+}
+.uk-navbar-nav ul li a:hover, .uk-navbar-nav ul li:hover > a
+{
+color:#000000 !important;
+background:#b8bcc0;
+}
+
+
+.uk-navbar-nav li:hover ul, .uk-navbar-nav li:hover ul ul, .uk-navbar-nav li:hover ul ul ul{
+display:none;
+}
+.uk-navbar-nav li:hover ul, .uk-navbar-nav ul li:hover ul, .uk-navbar-nav ul li li:hover ul, .uk-navbar-nav ul li li li:hover ul{
+display:block;
+}
+
+.uk-navbar-nav ul ul
+{
+padding:0px;
+top:0px;
+left:150px;
+background:#b8bcc0;
+display:none;
+z-index:999;
+}
+
+/*=======================================
+[04.07.2016]
+========================================*/
+.section_offer .uk-panel:nth-child(3) h4 { padding:5px 0 31px;}
+.contact_form label { display:block; font-size:16px; font-weight:700; margin:0 0 10px; }
+.contact_form label span { color:#F00; }
+.contact_form input[type="text"], .contact_form input[type="email"] {
+	width:100%;
+	padding:8px 10px;
+	font-size:14px;
+	line-height:18px;
+	border:#333 1px solid;
+	box-sizing:border-box;
+}
+
+.contact_form textarea { width:100%; height:200px; line-height:16px; font-size:14px; resize:none; border:#333 1px solid; padding:8px; box-sizing:border-box; }
+
+.contact_form input[type="submit"] { border:none; font-size: 12px; cursor:pointer; font-weight: 500; border-radius: 5px; color:#FFF; padding: 10px 40px; background:#dc3630; }
+.contact_form input[type="submit"]:hover { border:#e4354f;}
+
+.quote_widget { margin-bottom:76px !important; position:relative; background:#909498; color:#FFF; text-align:center; padding:28px 18px; font-size:20px; font-weight:500; line-height:32px;}
+.quote_widget.blackbg { background:#040707; }
+.quote_widget span { display:block; font-size:12px; line-height:18px; font-weight:500; text-transform:uppercase; }
+.quote_widget span.quote_arrow { width:41px; height:39px; background:url(../images/quote_arrow.jpg) no-repeat 0 0; position:absolute; right:20px; bottom:-39px; }
+.quote_widget.blackbg span.quote_arrow { background:url(../images/quote_black_arrow.jpg) no-repeat 0 0; }
+
+img.alignleft {
+    float: left;
+    margin: 0 10px 10px 0;
+}

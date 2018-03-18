@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+/* @media only screen and (min-width: 980px) and (max-width: 1200px) {
+	.reg_form {padding: 20px 26px;width: 367px;}
+	.reg_form h2 { font-size: 17px;}
+	.reg_form span {display: inline-block;font-size: 17px;}
+	.reg_form a {font-size: 17px; margin-left: 46px;}
+	h1 {font-size: 34px;}
+	.intro h2 {font-size: 34px; margin-bottom: 15px;}
+	.intro {width: 292px;}
+	.intro p {font-size: 16px;line-height: 20px;}
+	.contact h2 {font-size: 16px;}
+	.contact a, span {font-size: 15px;}
+}
+   
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	.wrapper {max-width:748px;}	
+	.intro {float: none;margin: 82px auto 0;text-align: center; width: 47%;}
+	.reg_form { margin: 62px auto 0; width: 409px; float: none;}
+	.reg_form h2 { font-size: 17px;}
+	.reg_form span {display: inline-block;font-size: 17px;}
+	 h1 {font-size: 34px;}
+	.intro h2 {font-size: 34px; margin-bottom: 15px;}
+	.reg_form a {font-size: 17px;margin-left: 77px;}
+	.bottom {padding: 19px 0; text-align: left;}
+	.contact h2 {font-size: 13px;}
+	.contact a, span { font-size: 14px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.wrapper {max-width:460px;}
+	.intro {  margin: 0 auto; padding: 50px 0;text-align: center;width: 65%;float: none;}
+	h1 {font-size: 29px;}
+	.intro h2 {color: #fff;font-size: 29px;margin-bottom: 16px;}
+	.intro p {font-size: 17px;line-height: 20px;}
+	.reg_form {margin: -18px auto 40px; padding: 20px 23px;float: none; width: 76%; margin-top: -18px;}
+	.reg_form h2 {font-size: 16px;margin-bottom: 8px;}
+	.reg_form span {display: inline-block;font-size: 15px;}
+	.reg_form a {display: inline-block;font-size: 15px;margin-left: 61px;}
+	.bottom { padding: 19px 0;}
+	.contact h2 {font-size: 13px;}
+	.contact a, span {font-size: 12px;}
+	.contact {margin-right: 18px;}
+}
+
+@media only screen and (max-width: 360px) {
+	.wrapper {max-width:300px;}
+	.reg_form a {font-size: 13px;margin-left: 12px;}
+	.reg_form span { font-size: 13px;}
+	.reg_form h2 {font-size: 13px;}
+	h1 {font-size: 24px;}
+	.intro h2 {font-size: 24px;}
+	.intro p {font-size: 14px;line-height: 16px;}
+	.intro {width: 100%;}
+	.reg_form { width: 100%;}
+	.contact {margin-bottom: 15px; text-align: center;float: none;}
+	.bottom { padding-top: 19px;}
+} */
+
+@media only screen and (max-width: 767px) {
+	.wrapper { padding: 0 25px;}
+}
+
+@media only screen and (max-width: 479px) {
+  .wrapper { padding: 0 20px;}
+  .section-heading { font-size:55px; line-height:52px; padding-top:0; }
+}
